@@ -14,3 +14,10 @@ Estas son mis dotfiles personales para mi entorno de Qtile.
 
 ## SHOWCASE
 [![screenshot1](/stuff/screenshot0.png)](https://youtu.be/NuRFDH3GaSQ)
+
+## DEPENDENCIAS
+Ejecute este comando en su terminal (asumiendo que su AUR helper es yay)
+~~~
+yay -S xdotools ripgrep feh 
+~~~
+###### Ya ni recuerdo que otras dependencias necesito XDDDD
