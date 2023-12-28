@@ -18,6 +18,6 @@ Estas son mis dotfiles personales para mi entorno de Qtile.
 ## DEPENDENCIAS
 Ejecute este comando en su terminal (asumiendo que su AUR helper es yay)
 ~~~
-yay -S xdotools ripgrep feh 
+yay -S xdotools ripgrep feh pipewire-alsa pipewire-jack
 ~~~
 ###### Ya ni recuerdo que otras dependencias necesito XDDDD
