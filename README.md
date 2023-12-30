@@ -25,6 +25,4 @@ yay -S qtile-extras
 ###### Ya ni recuerdo que otras dependencias necesito XDDDD
 
 ## SHOWCASE
-![screenshot0](./stuff/2023-12-30-131030_1366x768_scrot.png)
-![screenshot1](./stuff/2023-12-30-131313_1366x768_scrot.png)
-![screenshot2](./stuff/2023-12-30-131322_1366x768_scrot.png)
+![SHOWCASE](./stuff/com.png)
