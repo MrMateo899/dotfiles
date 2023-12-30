@@ -12,10 +12,6 @@ Estas son mis dotfiles personales para mi entorno de Qtile.
 - Editor de texto: [LazyVim](https://www.lazyvim.org/) con [gruvbox](https://github.com/ellisonleao/gruvbox.nvim)
 - Paleta de colores: Gruvbox
 
-## SHOWCASE
-![screenshot0](./stuff/2023-12-30-131030_1366x768_scrot.png)
-![screenshot1](./stuff/2023-12-30-131313_1366x768_scrot.png)
-![screenshot2](./stuff/2023-12-30-131322_1366x768_scrot.png)
 
 ## DEPENDENCIAS
 Ejecute este comando en su terminal (asumiendo que su AUR helper es yay)
@@ -23,3 +19,8 @@ Ejecute este comando en su terminal (asumiendo que su AUR helper es yay)
 pacman -S xdotools ripgrep feg pipewire-jack pipewire-alsa rofi
 ~~~
 ###### Ya ni recuerdo que otras dependencias necesito XDDDD
+
+## SHOWCASE
+![screenshot0](./stuff/2023-12-30-131030_1366x768_scrot.png)
+![screenshot1](./stuff/2023-12-30-131313_1366x768_scrot.png)
+![screenshot2](./stuff/2023-12-30-131322_1366x768_scrot.png)
