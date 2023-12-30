@@ -128,7 +128,7 @@ layouts = [
 ]
 
 widget_defaults = dict (
-    font="Arimo Nerd Font Mono",
+    font="Hack Nerd Font Mono",
     fontsize=12,
     padding=4,
 )
@@ -136,36 +136,41 @@ extension_defaults = widget_defaults.copy()
 
 screens = [
     Screen(
-        bottom=bar.Bar(
+        top=bar.Bar(
             [
-                #widget.CurrentLayout(),
                 widget.CurrentLayoutIcon(),
-                widget.GroupBox(),
-                widget.WindowName(),
-                widget.Chord(
-                    chords_colors={
-                        "launch": ("#ff0000", "#ffffff"),
-                    },
-                    name_transform=lambda name: name.upper(),
+                widget.GroupBox(
+                    fontsize = 11,
+                    highlight_method = "text",
+                    highlight_color = "#1d2021",
+                    this_current_screen_border = "#fabd2f",
+                    foreground = "#ebdbb2",
+                    active = "#fbf1c7",
+                    inactive = "#a89984",
+                    padding = 4
                 ),
+                widget.Spacer(),
                 # NB Systray is incompatible with Wayland, consider using StatusNotifier instead
                 # widget.StatusNotifier(),
-                widget.Systray(),
+                widget.Battery(
+                    format = "{char} {percent:2.0%} ",
+                    discharge_char = "󰁹",
+                    charge_char = "󰂄"
+                ),
                 widget.Volume(emoji = True,
-                              emoji_list = ["󰖁", "" "󰖀", "󰕾"]
-                              ),
+                    emoji_list = ["󰖁", "" "󰖀", "󰕾"]
+                ),
                 widget.Volume(),
-                #widget.BatteryIcon(),
-                widget.Battery(charge_char = "󰂄",
-                               discharge_char = "󰁹",
-                               format = '{char} {percent:2.0%}'),
-                widget.Clock(format="󰃭 %d/%m/%Y  󰥔 %I:%M "),
-                #widget.QuickExit(),
+                widget.Clock(
+                    format = " %H:%M "
+                ),
             ],
-            24,
-            background = "#060606",
+            32,
+            background = "#1d2021",
+            foreground = "#ebdbb2",
+            margin = 4
             # border_width=[2, 0, 2, 0],  # Draw top and bottom borders
-            # border_color=["#1d2021", "000000", "ff00ff", "000000"]  # Borders are magenta
+            # border_color=["ff00ff", "000000", "ff00ff", "000000"]  # Borders are magenta
         ),
         x11_drag_polling_rate = 60,
     ),

@@ -13,10 +13,15 @@ Estas son mis dotfiles personales para mi entorno de Qtile.
 - Paleta de colores: Gruvbox
 
 ## SHOWCASE
-[![screenshot1](/stuff/screenshot0.png)](https://youtu.be/NuRFDH3GaSQ)
+![screenshot0](./stuff/2023-12-30-131030_1366x768_scrot.png)
+![screenshot1](./stuff/2023-12-30-131313_1366x768_scrot.png)
+![screenshot2](./stuff/2023-12-30-131322_1366x768_scrot.png)
 
 ## DEPENDENCIAS
 Ejecute este comando en su terminal (asumiendo que su AUR helper es yay)
+~~~
+pacman -S xdotools ripgrep feg pipewire-jack pipewire-alsa rofi
+~~~
 ~~~
 yay -S xdotools ripgrep feh pipewire-alsa pipewire-jack
 ~~~
