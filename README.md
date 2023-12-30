@@ -22,7 +22,4 @@ Ejecute este comando en su terminal (asumiendo que su AUR helper es yay)
 ~~~
 pacman -S xdotools ripgrep feg pipewire-jack pipewire-alsa rofi
 ~~~
-~~~
-yay -S xdotools ripgrep feh pipewire-alsa pipewire-jack
-~~~
 ###### Ya ni recuerdo que otras dependencias necesito XDDDD
