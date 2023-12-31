@@ -21,7 +21,7 @@ pacman -S xdotools ripgrep feg pipewire-jack pipewire-alsa rofi
 ~~~
 Ejecute este comando para instalar las dependencias disponibles en AUR (asumiendo que su AUR helper es yay)
 ~~~
-yay -S qtile-extras
+yay -S qtile-extras rofi-greenclip
 ~~~
 Además de estas dependencias se recomienda instalar [Hack Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/Hack.zip) para evitar problemas con las fuentes.
 
