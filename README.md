@@ -22,7 +22,7 @@ Ejecute este comando para instalar las dependencias disponibles en AUR (asumiend
 ~~~
 yay -S qtile-extras
 ~~~
-###### Ya ni recuerdo que otras dependencias necesito XDDDD
+Además de estas dependencias se recomienda instalar [Hack Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/Hack.zip) para evitar problemas con las fuentes.
 
 ## SHOWCASE
 ![SHOWCASE](./stuff/com.png)
