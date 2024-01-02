@@ -152,13 +152,14 @@ screens = [
                 widget.Spacer(),
                 # NB Systray is incompatible with Wayland, consider using StatusNotifier instead
                 # widget.StatusNotifier(),
+                widget.Systray(),
                 widget.Battery(
                     format = "{char} {percent:2.0%} ",
-                    discharge_char = "󰁹",
-                    charge_char = "󰂄"
+                    discharge_char = "  󰁹",
+                    charge_char = "  󰂄"
                 ),
                 widget.Volume(emoji = True,
-                    emoji_list = ["󰖁", "" "󰖀", "󰕾"]
+                    emoji_list = [" 󰖁", " " " 󰖀", " 󰕾"]
                 ),
                 widget.Volume(),
                 widget.Clock(
