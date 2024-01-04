@@ -9,7 +9,7 @@ Estas son mis dotfiles personales para mi entorno de Qtile.
 - **Launcher:** [Rofi](https://github.com/davatorium/rofi)
 - **Gestor de portapeles:** [greenclip](https://github.com/erebe/greenclip) (Requiere rofi)
 - **Iconos:** [Viene de otro rice](https://www.pling.com/p/2046839/) Puedes encontrarlo en la sección de "files" y el archivo icons.zip)
-- **GTK:** [gruvbox-material-gtk](https://github.com/TheGreatMcPain/gruvbox-material-gtk)
+- **GTK:** [Gruvbox-Dark-BL-MOD](https://www.pling.com/p/2046839)
 - **Editor de texto:** [LazyVim](https://www.lazyvim.org/) con [gruvbox](https://github.com/ellisonleao/gruvbox.nvim)
 - **Paleta de colores:** Gruvbox
 
