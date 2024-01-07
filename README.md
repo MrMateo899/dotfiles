@@ -17,7 +17,7 @@ Estas son mis dotfiles personales para mi entorno de Qtile.
 ## DEPENDENCIAS
 Ejecute este comando en su terminal para instalar las dependencias que se pueden encontrar en los repos de core o extra de Arch Linux
 ~~~
-pacman -S xdotools ripgrep feg pipewire-jack pipewire-alsa rofi
+pacman -S xdotools ripgrep feh pipewire-jack pipewire-alsa rofi brightnessctl
 ~~~
 Ejecute este comando para instalar las dependencias disponibles en AUR (asumiendo que su AUR helper es yay)
 ~~~
